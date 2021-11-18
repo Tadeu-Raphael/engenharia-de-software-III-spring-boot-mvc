@@ -1,13 +1,13 @@
-package com.engenhariaIII.calculadora;
+package com.engenhariaIII.mvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CalculadoraApplication {
+public class MvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CalculadoraApplication.class, args);
+		SpringApplication.run(MvcApplication.class, args);
 	}
 
 }
